@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/npm/v/button4564.svg)](https://www.npmjs.com/package/button4564) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-[![Example pic](./example.png)]
+![Example pic](./example.png)
 ## Install
 
 ```bash
