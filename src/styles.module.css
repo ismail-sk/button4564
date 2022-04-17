@@ -1,9 +1,98 @@
-/* add css module styles here (optional) */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+button {
+  display: block;
   text-align: center;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: black;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 1em 3em;
+  background-size: 300% 300%;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+
+  background-image: linear-gradient(to right, #4ae6e6 0%, #ffabf4 50%, #895cf2 100%);
+  transition: 0.5s;
+}
+
+button:hover {
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.21), 0 1px 3px rgba(0, 0, 0, 0.18);
+  background-position: right center;
+  color: #fff;
+  
+  cursor: pointer;
+}
+
+button:active {
+  scale: 0.9;
+  box-shadow: none;
+}
+
+
+
+.primary {
+  background-image: repeating-linear-gradient(-45deg, 
+    #7BDFF2 10px 30px,
+    #B2F7EF 30px 50px,
+    #EFF7F6 50px 70px,
+    #F7D6E0 70px 90px,
+    #F2B5D4 90px 110px
+);
+}
+
+.primary:hover {
+background-position: 20% center;
+
+color: black;
+}
+
+
+.dashed {
+  border-style: dashed;
+  border-color: #fff;
+
+}
+
+.dashed:hover {
+  border-color: rgba(0, 0, 0, 0.8);
+}
+
+.spaceBw {
+  color: #4ae6e6;
+  
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.text{
+  display:contents;
+}
+.text:hover{
+  color: black;
+}
+
+
+.link{ 
+  color: #40a9ff;
+  display:block;
+  background-image: none;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 15px;
+  background-size: 300% 300%;
+  box-shadow:none;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.link:hover{
+  color: brown;
 }
